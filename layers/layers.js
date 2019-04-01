@@ -343,9 +343,9 @@ lyr_Limnonecteskuhlii_17.set('fieldLabels', {'Habitat': 'inline label', 'Status'
 lyr_Fejervaryacancrivora_18.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
 lyr_Limnonectesibanorum_19.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
 lyr_Limnonectesleporinus_20.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Limnonectesparamacrodon_21.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'no label', });
-lyr_Pulchranapicturata_22.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'no label', });
-lyr_Ansoniaspinulifer_23.set('fieldLabels', {'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'no label', 'Habitat': 'inline label', 'Foto': 'inline label', });
+lyr_Limnonectesparamacrodon_21.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', });
+lyr_Pulchranapicturata_22.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', });
+lyr_Ansoniaspinulifer_23.set('fieldLabels', {'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Habitat': 'inline label', 'Foto': 'inline label', });
 lyr_Ansoniaspinulifer_23.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
