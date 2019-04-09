@@ -83,7 +83,7 @@ var expandedAttribution = new ol.control.Attribution({
 
 var map = new ol.Map({
     controls: ol.control.defaults({attribution:false}).extend([
-        expandedAttribution,new measureControl(),new geolocateControl()
+        expandedAttribution,new ol.control.ScaleLine({}),new measureControl(),new geolocateControl()
     ]),
     target: document.getElementById('map'),
     renderer: 'canvas',
@@ -97,7 +97,7 @@ var map = new ol.Map({
 var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
 map.addControl(layerSwitcher);
 
-map.getView().fit([13046378.943428, -37292.423817, 13046905.525236, -36865.156624], map.getSize());
+map.getView().fit([13046500.906569, -37304.371073, 13047062.140858, -36898.053755], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
