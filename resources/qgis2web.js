@@ -82,8 +82,8 @@ var expandedAttribution = new ol.control.Attribution({
 });
 
 var map = new ol.Map({
-    controls: ol.control.defaults({attribution:false}).extend([
-        expandedAttribution,new ol.control.ScaleLine({}),new measureControl(),new ol.control.OverviewMap(),new geolocateControl()
+    controls: ol.control.defaults({attribution:true}).extend([
+        expandedAttribution ,new ol.control.FullScreen() ,new ol.control.ScaleLine({}),new measureControl(),new ol.control.OverviewMap(),new geolocateControl()
     ]),
     target: document.getElementById('map'),
     renderer: 'canvas',

@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./resources/ol.css">
         <link rel="stylesheet" href="resources/fontawesome-all.min.css">
         <link rel="stylesheet" href="./resources/ol3-layerswitcher.css">
-        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css"> <meta charset="utf-8">
         <style>
         .ol-geocoder.gcd-gl-container {
             top: 135px!important;
@@ -53,7 +53,7 @@
         }
         .ol-control button {
             background-color: #f8f8f8 !important;
-            color: #000000 !important;
+            color: blue !important;
             border-radius: 0px !important;
         }
         .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
@@ -62,6 +62,7 @@
         }
         .ol-scale-line {
             background: none !important;
+            left: 15em;
         }
         .ol-scale-line-inner {
             border: 2px solid #f8f8f8 !important;
@@ -130,16 +131,15 @@
             margin: 0;
         }
         </style>
-        <title></title>
-    </head>
+   </head>
     <body>
         <div id="map">
-            <div id="popup" class="ol-popup">
+           <div id="popup" class="ol-popup">
                 <a href="#" id="popup-closer" class="ol-popup-closer"></a>
                 <div id="popup-content"></div>
             </div>
         </div>
-        <script src="resources/qgis2web_expressions.js"></script>
+		        <script src="resources/qgis2web_expressions.js"></script>
         <script src="resources/polyfills.js"></script>
         <script src="./resources/functions.js"></script>
         <script src="./resources/ol.js"></script>
@@ -151,4 +151,5 @@
         <script src="./resources/qgis2web.js"></script>
         <script src="./resources/Autolinker.min.js"></script>
     </body>
+	
 </html>
