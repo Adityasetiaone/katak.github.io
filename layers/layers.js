@@ -7,7 +7,7 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: '<a href=""></a>',
+    attributions: '<a href="">Source MAPS ESRI IMAGERY ARCGIS ONLINE, qgis2web open layer</a>',
                 url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
             })
         });
@@ -18,7 +18,7 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: '<a href=""></a>',
+    attributions: '<a href="">Source Open Street Maps, qgis2web openlayers</a>',
                 url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
@@ -29,7 +29,7 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: '<a href=""></a>',
+    attributions: '<a href="https://www.google.com">Source MAPS GOOGLE Satelite, qgis2web open layer</a>',
                 url: 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}'
             })
         });var format_AreaPenelitian2_3 = new ol.format.GeoJSON();
