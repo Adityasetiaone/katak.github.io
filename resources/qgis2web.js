@@ -83,7 +83,9 @@ var expandedAttribution = new ol.control.Attribution({
 
 var map = new ol.Map({
     controls: ol.control.defaults({attribution:false}).extend([
-        expandedAttribution ,new ol.control.FullScreen() ,new ol.control.ScaleLine({}),new measureControl(),new ol.control.OverviewMap(),new geolocateControl()
+        expandedAttribution  ,new ol.control.ZoomToExtent({
+            extent: [13043588.739302, -38663.971330, 13052568.487925, -32162.894239]
+          }) ,new ol.control.FullScreen() ,new ol.control.ScaleLine({}),new measureControl(),new ol.control.OverviewMap(),new geolocateControl()
     ]),
     target: document.getElementById('map'),
     renderer: 'canvas',
@@ -673,7 +675,6 @@ var geocoder = new Geocoder('nominatim', {
 map.addControl(geocoder);
 
 document.getElementsByClassName('gcd-gl-btn')[0].className += ' fa fa-search';
-
 
 var attribution = document.getElementsByClassName('ol-attribution')[0];
 var attributionList = attribution.getElementsByTagName('ul')[0];
