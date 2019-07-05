@@ -42,10 +42,6 @@ jsonSource_AreaPenelitian2_3.addFeatures(features_AreaPenelitian2_3);var lyr_Are
                 declutter: true,
                 source:jsonSource_AreaPenelitian2_3, 
                 style: style_AreaPenelitian2_3,
-    title: 'Area Penelitian 2<br />\
-    <img src="styles/legend/AreaPenelitian2_3_0.png" /> <br />\
-    <img src="styles/legend/AreaPenelitian2_3_1.png" /> Perairan<br />\
-    <img src="styles/legend/AreaPenelitian2_3_2.png" /> Stasiun 2<br />'
         });var format_AreaPenelitian_4 = new ol.format.GeoJSON();
 var features_AreaPenelitian_4 = format_AreaPenelitian_4.readFeatures(json_AreaPenelitian_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -56,11 +52,6 @@ jsonSource_AreaPenelitian_4.addFeatures(features_AreaPenelitian_4);var lyr_AreaP
                 declutter: true,
                 source:jsonSource_AreaPenelitian_4, 
                 style: style_AreaPenelitian_4,
-    title: 'Area Penelitian<br />\
-    <img src="styles/legend/AreaPenelitian_4_0.png" /> Kebun Sawit<br />\
-    <img src="styles/legend/AreaPenelitian_4_1.png" /> Stasiun 1<br />\
-    <img src="styles/legend/AreaPenelitian_4_2.png" /> <br />\
-    <img src="styles/legend/AreaPenelitian_4_3.png" /> Peraiaran<br />'
         });var format_AreaPenelitian4_5 = new ol.format.GeoJSON();
 var features_AreaPenelitian4_5 = format_AreaPenelitian4_5.readFeatures(json_AreaPenelitian4_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -71,10 +62,6 @@ jsonSource_AreaPenelitian4_5.addFeatures(features_AreaPenelitian4_5);var lyr_Are
                 declutter: true,
                 source:jsonSource_AreaPenelitian4_5, 
                 style: style_AreaPenelitian4_5,
-    title: 'Area Penelitian 4<br />\
-    <img src="styles/legend/AreaPenelitian4_5_0.png" /> Perairan<br />\
-    <img src="styles/legend/AreaPenelitian4_5_1.png" /> Stasiun 4<br />\
-    <img src="styles/legend/AreaPenelitian4_5_2.png" /> <br />'
         });var format_AreaPenelitian3_6 = new ol.format.GeoJSON();
 var features_AreaPenelitian3_6 = format_AreaPenelitian3_6.readFeatures(json_AreaPenelitian3_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -85,7 +72,6 @@ jsonSource_AreaPenelitian3_6.addFeatures(features_AreaPenelitian3_6);var lyr_Are
                 declutter: true,
                 source:jsonSource_AreaPenelitian3_6, 
                 style: style_AreaPenelitian3_6,
-                title: '<img src="styles/legend/AreaPenelitian3_6.png" /> Area Penelitian 3'
             });var format_TempatPoint_7 = new ol.format.GeoJSON();
 var features_TempatPoint_7 = format_TempatPoint_7.readFeatures(json_TempatPoint_7, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -94,9 +80,7 @@ var jsonSource_TempatPoint_7 = new ol.source.Vector({
 });
 jsonSource_TempatPoint_7.addFeatures(features_TempatPoint_7);var lyr_TempatPoint_7 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_TempatPoint_7, 
-                style: style_TempatPoint_7,
-                title: '<img src="styles/legend/TempatPoint_7.png" /> Tempat Point'
+
             });var format_Duttaphrynusmelanostictus_8 = new ol.format.GeoJSON();
 var features_Duttaphrynusmelanostictus_8 = format_Duttaphrynusmelanostictus_8.readFeatures(json_Duttaphrynusmelanostictus_8, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -299,75 +283,60 @@ jsonSource_Ansoniaspinulifer_25.addFeatures(features_Ansoniaspinulifer_25);var l
 
 lyr_ESRISatelit_0.setVisible(true);lyr_OpenStreetMap_1.setVisible(true);lyr_GoogleSatelite_2.setVisible(true);lyr_AreaPenelitian2_3.setVisible(false);lyr_AreaPenelitian_4.setVisible(false);lyr_AreaPenelitian4_5.setVisible(false);lyr_AreaPenelitian3_6.setVisible(false);lyr_TempatPoint_7.setVisible(true);lyr_Duttaphrynusmelanostictus_8.setVisible(true);lyr_Ingerophrynusdivergens_9.setVisible(true);lyr_Polypedatesleucomystax_10.setVisible(true);lyr_Polypedatesotilophus_11.setVisible(true);lyr_Microhylaberdmorei_12.setVisible(true);lyr_Leptolalaxgracilis_13.setVisible(true);lyr_Amnirananicobariensis_14.setVisible(true);lyr_Chalcoranachalconota_15.setVisible(true);lyr_Chalcoranaraniceps_16.setVisible(true);lyr_Odorranahosii_17.setVisible(true);lyr_Limnonectesfinchi_18.setVisible(true);lyr_Limnonecteskuhlii_19.setVisible(true);lyr_Fejervaryacancrivora_20.setVisible(true);lyr_Limnonectesibanorum_21.setVisible(true);lyr_Limnonectesleporinus_22.setVisible(true);lyr_Limnonectesparamacrodon_23.setVisible(true);lyr_Pulchranapicturata_24.setVisible(true);lyr_Ansoniaspinulifer_25.setVisible(true);
 var layersList = [lyr_ESRISatelit_0,lyr_OpenStreetMap_1,lyr_GoogleSatelite_2,lyr_AreaPenelitian2_3,lyr_AreaPenelitian_4,lyr_AreaPenelitian4_5,lyr_AreaPenelitian3_6,lyr_TempatPoint_7,lyr_Duttaphrynusmelanostictus_8,lyr_Ingerophrynusdivergens_9,lyr_Polypedatesleucomystax_10,lyr_Polypedatesotilophus_11,lyr_Microhylaberdmorei_12,lyr_Leptolalaxgracilis_13,lyr_Amnirananicobariensis_14,lyr_Chalcoranachalconota_15,lyr_Chalcoranaraniceps_16,lyr_Odorranahosii_17,lyr_Limnonectesfinchi_18,lyr_Limnonecteskuhlii_19,lyr_Fejervaryacancrivora_20,lyr_Limnonectesibanorum_21,lyr_Limnonectesleporinus_22,lyr_Limnonectesparamacrodon_23,lyr_Pulchranapicturata_24,lyr_Ansoniaspinulifer_25];
-lyr_AreaPenelitian2_3.set('fieldAliases', {'Keterangan': 'Keterangan', });
-lyr_AreaPenelitian_4.set('fieldAliases', {'Keterangan': 'Keterangan', });
-lyr_AreaPenelitian4_5.set('fieldAliases', {'Keterangan': 'Keterangan', });
-lyr_AreaPenelitian3_6.set('fieldAliases', {'Keterangan': 'Keterangan', });
-lyr_TempatPoint_7.set('fieldAliases', {'Nama': 'Nama', });
-lyr_Duttaphrynusmelanostictus_8.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Ingerophrynusdivergens_9.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Polypedatesleucomystax_10.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Polypedatesotilophus_11.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Microhylaberdmorei_12.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Leptolalaxgracilis_13.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Amnirananicobariensis_14.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Chalcoranachalconota_15.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Chalcoranaraniceps_16.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Odorranahosii_17.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Limnonectesfinchi_18.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Limnonecteskuhlii_19.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Fejervaryacancrivora_20.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Limnonectesibanorum_21.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Limnonectesleporinus_22.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', });
-lyr_Limnonectesparamacrodon_23.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
-lyr_Pulchranapicturata_24.set('fieldAliases', {'Habitat': 'Habitat', 'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
-lyr_Ansoniaspinulifer_25.set('fieldAliases', {'Status': 'Status', 'Substrat': 'Substrat', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Habitat': 'Habitat', 'Foto': 'Foto', });
-lyr_AreaPenelitian2_3.set('fieldImages', {'Keterangan': 'TextEdit', });
-lyr_AreaPenelitian_4.set('fieldImages', {'Keterangan': 'TextEdit', });
-lyr_AreaPenelitian4_5.set('fieldImages', {'Keterangan': 'TextEdit', });
-lyr_AreaPenelitian3_6.set('fieldImages', {'Keterangan': 'TextEdit', });
-lyr_TempatPoint_7.set('fieldImages', {'Nama': 'TextEdit', });
-lyr_Duttaphrynusmelanostictus_8.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Ingerophrynusdivergens_9.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Polypedatesleucomystax_10.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Polypedatesotilophus_11.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Microhylaberdmorei_12.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Leptolalaxgracilis_13.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Amnirananicobariensis_14.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Chalcoranachalconota_15.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Chalcoranaraniceps_16.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Odorranahosii_17.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Limnonectesfinchi_18.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Limnonecteskuhlii_19.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Fejervaryacancrivora_20.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Limnonectesibanorum_21.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Limnonectesleporinus_22.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', });
-lyr_Limnonectesparamacrodon_23.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
-lyr_Pulchranapicturata_24.set('fieldImages', {'Habitat': 'TextEdit', 'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
-lyr_Ansoniaspinulifer_25.set('fieldImages', {'Status': 'TextEdit', 'Substrat': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': 'TextEdit', 'Habitat': 'TextEdit', 'Foto': 'TextEdit', });
-lyr_AreaPenelitian2_3.set('fieldLabels', {'Keterangan': 'no label', });
-lyr_AreaPenelitian_4.set('fieldLabels', {'Keterangan': 'no label', });
-lyr_AreaPenelitian4_5.set('fieldLabels', {'Keterangan': 'no label', });
-lyr_AreaPenelitian3_6.set('fieldLabels', {'Keterangan': 'no label', });
-lyr_TempatPoint_7.set('fieldLabels', {'Nama': 'no label', });
-lyr_Duttaphrynusmelanostictus_8.set('fieldLabels', {'Habitat': 'no label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Ingerophrynusdivergens_9.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Polypedatesleucomystax_10.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Polypedatesotilophus_11.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Microhylaberdmorei_12.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Leptolalaxgracilis_13.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Amnirananicobariensis_14.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Chalcoranachalconota_15.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Chalcoranaraniceps_16.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Odorranahosii_17.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Limnonectesfinchi_18.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Limnonecteskuhlii_19.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Fejervaryacancrivora_20.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Limnonectesibanorum_21.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Limnonectesleporinus_22.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', });
-lyr_Limnonectesparamacrodon_23.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
-lyr_Pulchranapicturata_24.set('fieldLabels', {'Habitat': 'inline label', 'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
-lyr_Ansoniaspinulifer_25.set('fieldLabels', {'Status': 'inline label', 'Substrat': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Habitat': 'inline label', 'Foto': 'inline label', });
+lyr_Duttaphrynusmelanostictus_8.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Ingerophrynusdivergens_9.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Polypedatesleucomystax_10.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Polypedatesotilophus_11.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Microhylaberdmorei_12.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Leptolalaxgracilis_13.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Amnirananicobariensis_14.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Chalcoranachalconota_15.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Chalcoranaraniceps_16.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Odorranahosii_17.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Limnonectesfinchi_18.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Limnonecteskuhlii_19.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Fejervaryacancrivora_20.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Limnonectesibanorum_21.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Limnonectesleporinus_22.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Limnonectesparamacrodon_23.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Pulchranapicturata_24.set('fieldAliases', {'Pengamat': 'Pengamat', 'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Foto': 'Foto', });
+lyr_Ansoniaspinulifer_25.set('fieldAliases', {'Pada': 'Pada', '_': '_', 'Famili': 'Famili', 'Spesies': 'Spesies', 'Pengamat': 'Pengamat', 'Foto': 'Foto', });
+lyr_Duttaphrynusmelanostictus_8.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Ingerophrynusdivergens_9.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Polypedatesleucomystax_10.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Polypedatesotilophus_11.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Microhylaberdmorei_12.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Leptolalaxgracilis_13.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Amnirananicobariensis_14.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Chalcoranachalconota_15.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Chalcoranaraniceps_16.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Odorranahosii_17.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Limnonectesfinchi_18.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Limnonecteskuhlii_19.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Fejervaryacancrivora_20.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Limnonectesibanorum_21.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Limnonectesleporinus_22.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Limnonectesparamacrodon_23.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Pulchranapicturata_24.set('fieldImages', {'Pengamat': 'TextEdit', 'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': '', 'Foto': '', });
+lyr_Ansoniaspinulifer_25.set('fieldImages', {'Pada': 'TextEdit', '_': 'TextEdit', 'Famili': 'TextEdit', 'Spesies': 'TextEdit', 'Pengamat': 'TextEdit', 'Foto': 'TextEdit', });
+lyr_Duttaphrynusmelanostictus_8.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Ingerophrynusdivergens_9.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Polypedatesleucomystax_10.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Polypedatesotilophus_11.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Microhylaberdmorei_12.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Leptolalaxgracilis_13.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Amnirananicobariensis_14.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Chalcoranachalconota_15.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Chalcoranaraniceps_16.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Odorranahosii_17.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Limnonectesfinchi_18.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Limnonecteskuhlii_19.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Fejervaryacancrivora_20.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Limnonectesibanorum_21.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Limnonectesleporinus_22.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Limnonectesparamacrodon_23.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Pulchranapicturata_24.set('fieldLabels', {'Pengamat': 'inline label', 'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Foto': 'inline label', });
+lyr_Ansoniaspinulifer_25.set('fieldLabels', {'Pada': 'inline label', '_': 'inline label', 'Famili': 'inline label', 'Spesies': 'inline label', 'Pengamat': 'inline label', 'Foto': 'inline label', });
 lyr_Ansoniaspinulifer_25.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
